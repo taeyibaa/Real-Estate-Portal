@@ -4,7 +4,7 @@
 }
 body {
   font-family: "Open Sans";
-  background-color: white;
+  background-color: rgb(255, 255, 255);
   color: #4b5a6f;
 }
 
@@ -418,10 +418,7 @@ h8{
 }
 .square1{
   width: 120px; 
-  height: 120px; 
-  background: linear-gradient(141deg, rgba(18, 82, 174, 0.30) 0%, rgba(18, 82, 174, 0) 100%); 
-  box-shadow: 0px 6px 7px rgba(18, 82, 174, 0.20) inset; 
-  border-radius: 9999px;
+  height: 120px;
 }
 .Services{
   margin-top: 84px;
