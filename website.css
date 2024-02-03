@@ -609,7 +609,7 @@ h11{
 .viewmoree{
   display: flex;
   gap: 15px;
-  margin-top: 90px;
+  margin-top: 70px;
   justify-content: center;
 
 }
@@ -632,7 +632,8 @@ h11{
 
 }
 .rightarrow{
-    margin-bottom: -5px;
+    margin-bottom: auto;
+    margin-left: 5px;
 }
   
 .fifth__container{
@@ -669,7 +670,7 @@ h11{
 .aboutusdetails{
   display: flex;
   justify-content: left;
-  gap: 120px;
+  gap: 150px;
   margin-top: 102px;
 
 }
@@ -703,11 +704,18 @@ h11{
   justify-content: left;
   
 }
+.alignthem{
+  display: flex;
+  gap: 25px;
+}
 .hhbn{
+  display: flex;
   width: 40px; 
   height: 40px; 
   background: rgba(18, 82, 174, 0.15); 
   border-radius: 50px;
+  margin-top: 15px;
+  margin-left: 18px ;
 }
 .done{
   width: 20px; 
@@ -722,4 +730,134 @@ h11{
   font-family: Open Sans; 
   font-weight: 400; 
   word-wrap: break-word;
+}
+.Sixth__container{
+  max-width: 1300px;
+  margin: auto;
+  margin-top: 200px;
+}
+
+
+
+.aboutus2ndrow{
+
+  display: flex;
+  gap: 120px;
+}
+
+.hp{
+  display: grid;
+  row-gap: 35px;
+  justify-content: left;
+  width: 624px;
+  height: 38px;
+}
+
+.pp1{
+  color: #737D8C; 
+  font-size: 14px; 
+  font-family: Open Sans; 
+  font-weight: 370; 
+  word-wrap: break-word;  
+  width: 624px;
+  height: 38px;
+}
+.det{
+  color: #323B45; 
+  font-size: 15px; 
+  font-family: Open Sans;
+  font-weight: 400;
+  word-wrap: break-word;
+}
+
+.rp{
+  display: flex;
+  gap: 12px;
+}
+.points{
+  margin-top: 26px;
+  display: grid;
+  gap: 15px;
+}
+.viewmoreee{
+  margin-top: 20px;
+}
+
+.seven__container{
+  max-width: 1300px;
+  margin: auto;
+
+  
+}
+.four4{
+  margin-top: 260px;
+  justify-content: left;
+  margin-left: 30px;
+  display: flex;
+  gap: 50px;
+}
+.oneboxx{
+  display: grid;
+  justify-content: right;
+  width: 312px; 
+  height: 197px; 
+  background-color: #f6f6f6;
+  justify-content: center;
+
+}
+.crown{
+  margin-top: 30px;
+  margin-left: 50px;
+  width: 45px; 
+  height: 40px; 
+}
+.no1{
+  text-align: center; 
+  color: #2A323C; 
+  font-size: 38px; 
+  font-family: Open Sans; 
+  font-weight: 700; 
+  word-wrap: break-word;
+}
+.premium{
+  text-align: center; 
+  color: #737D8C; 
+  font-size: 18px; 
+  font-family: Open Sans; 
+  font-weight: 400; 
+  word-wrap: break-word;
+}
+.borderlineee{
+  margin-top: 10px;
+  
+}
+.qa{
+  display: grid;
+}
+.q1{
+  margin-top: 23px;
+  color: #323B45; 
+  font-size: 19px;
+  font-family: Open Sans; 
+  font-weight: 500; 
+  word-wrap: break-word;
+}
+.a1{
+  margin-top: 15px;
+  color: #737D8C; 
+  font-size: 14px; 
+  font-family: Open Sans; 
+  font-weight: 390; 
+  word-wrap: break-word;
+}
+.q2{
+  color: #6A727C; 
+  font-size: 19px; 
+  font-family: Open Sans; 
+  font-weight: 400; 
+  word-wrap: break-word;
+  margin-top: 22px;
+}
+.arrowwwd{
+  margin-left: 20px;
 }
