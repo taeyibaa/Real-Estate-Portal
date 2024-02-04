@@ -312,6 +312,11 @@ h2 {
   background: white; 
   border-radius: 4px;
 }
+.propertyhome{
+  width: 12px;
+  height: 12px;
+
+}
 .property-button:hover {
   background-color:#d7e7ff;
   color:#1252AE;}
@@ -632,8 +637,9 @@ h11{
 
 }
 .rightarrow{
-    margin-bottom: auto;
+    margin-bottom: -5px;
     margin-left: 5px;
+
 }
   
 .fifth__container{
@@ -860,4 +866,184 @@ h11{
 }
 .arrowwwd{
   margin-left: 20px;
+}
+
+
+
+
+/*Featured properties section */
+
+
+.eight__container{
+  max-width: 1300px;
+  margin: auto;
+  margin-top: 200px;
+}
+.featured{
+  color: #2A323C; 
+  font-size: 36px; 
+  font-family: Open Sans; 
+  font-weight: 700; 
+  word-wrap: break-word;
+}
+.propertiesx{
+  color: #1252AE; 
+  font-size: 36px; 
+  font-family: Open Sans; 
+  font-weight: 700; 
+  word-wrap: break-word;
+}
+.fpallign{
+  display: grid;
+  gap: 5px;
+  justify-content: center;
+
+}
+
+
+.fp1{
+
+margin-top: 100PX;
+  width: 424px; 
+  height: 375px; 
+  background: white; 
+  box-shadow:  #ffffff; 
+  border-radius: .2px; border: .4px solid #1252ae;
+}
+.blog1{
+  width: 365px; 
+  height: 217px; 
+  margin-top: 20px;
+  margin-left: 15px;
+}
+.househead{
+  color: #2A323C; 
+  font-size: 17px; 
+  font-family: Open Sans; 
+  font-weight: 600; 
+  word-wrap: break-word;
+  margin-top: 10px;
+  margin-left: 29px;
+}
+
+.forsalebutton {
+width: 60PX;
+  display: inline-block;
+  margin-top: 12.5px;
+  padding: 7px 11px;
+  font-size: 16px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 5px;
+  cursor: pointer;
+  align-items:center;
+  background-color:  #e9e9e9;
+  color: #1252ae;
+}
+
+.forsalebutton:hover {
+  background-color: #3498db;
+  color: #fff;
+}
+.forsaleb{
+  margin-top: -44px;
+  margin-left: 20px;
+}
+.star{
+  margin-top: 20px;
+  margin-left: 38px;
+
+}
+.rating{
+  display: flex;
+  gap: 195px;
+}
+.ne{
+  margin-top: 13px;
+  text-align: right; 
+  color: #2A323C; 
+  font-size: 20px; 
+  font-family: Open Sans; 
+  font-weight: 700; 
+  word-wrap: break-word;
+}
+
+.blogss{
+  display: flex;
+  gap: 50px;
+}
+
+
+
+
+
+.nine__container{
+  max-width: 1300px;
+  margin: auto;
+  margin-top: 200px;
+}
+
+
+.dffc{
+  display: flex;
+  gap: 120px;
+}
+.jk{
+  width: 614px; 
+  height: 231px; 
+  position: relative;
+}
+
+.newsfyu{
+  left: 0px; 
+  top: 0px; 
+  position: absolute; 
+  color: #1252AE; 
+  font-size: 46px; 
+  font-family: Open Sans; 
+  font-weight: 700; 
+  word-wrap: break-word;
+}
+.emailbox{
+  display: flex;
+  justify-content: center;
+  gap: 220px;
+  width: 588px; 
+  height: 58px; 
+  background: rgb(243, 243, 243); 
+  box-shadow: 0px 2px 1px rgba(36, 45, 60, 0.20); 
+  border-radius: 6px;
+}
+
+.Subscribe {
+  width: 100px;
+  display: inline-block;
+  height: 30px;
+  padding: 5px;
+  font-size: 16px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 5px;
+  cursor: pointer;
+  align-items: right;
+  background-color:  #1252AE;
+  color: #ffffff;
+}
+
+.Subscribe:hover {
+  background-color: #3498db;
+  color: #fff;
+}
+.subb{
+  margin-top: 10px;
+  margin-right: -43px;
+}
+.eemail{
+  margin-top: 18px;
+  justify-content: left;
+  color: #ADB5BD; 
+  font-size: 18px; 
+  font-family: Open Sans; 
+  font-weight: 400; 
+  word-wrap: break-word;
 }
