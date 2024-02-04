@@ -906,9 +906,9 @@ h11{
 margin-top: 100PX;
   width: 424px; 
   height: 375px; 
-  background: white; 
-  box-shadow:  #ffffff; 
-  border-radius: .2px; border: .4px solid #1252ae;
+  background: rgb(218, 218, 218); 
+  box-shadow:  #000dff; 
+  
 }
 .blog1{
   width: 365px; 
@@ -918,12 +918,12 @@ margin-top: 100PX;
 }
 .househead{
   color: #2A323C; 
-  font-size: 17px; 
+  font-size: 15px; 
   font-family: Open Sans; 
   font-weight: 600; 
   word-wrap: break-word;
   margin-top: 10px;
-  margin-left: 29px;
+  margin-left: 25px;
 }
 
 .forsalebutton {
@@ -960,7 +960,8 @@ width: 60PX;
 }
 .ne{
   margin-top: 13px;
-  text-align: right; 
+  text-align: right;
+  margin-right: 20px; 
   color: #2A323C; 
   font-size: 20px; 
   font-family: Open Sans; 
@@ -1010,7 +1011,7 @@ width: 60PX;
   gap: 220px;
   width: 588px; 
   height: 58px; 
-  background: rgb(243, 243, 243); 
+  background: rgb(255, 255, 255); 
   box-shadow: 0px 2px 1px rgba(36, 45, 60, 0.20); 
   border-radius: 6px;
 }
@@ -1046,4 +1047,10 @@ width: 60PX;
   font-family: Open Sans; 
   font-weight: 400; 
   word-wrap: break-word;
+}
+.blog2{
+  width: 541px; 
+  height: 217px; 
+  margin-top: 20px;
+  margin-left: 15px;
 }
