@@ -165,7 +165,13 @@ a {
 .banner__image__container {
   /* set backgrond image  */
   background-image: url("hero-bg.png");
-  padding:70px 50px;
+  width: 100%;
+  background-size: contain;
+}
+
+
+.padding_div {
+  padding:70px 50px
 }
 
 .vision {
@@ -222,6 +228,7 @@ h2 {
   padding: 10px 20px;
   font-size: 16px;
   margin-left: 30px;
+  border: none;
   text-align: center;
   text-decoration: none;
   border-radius: 6px;
@@ -241,6 +248,7 @@ h2 {
   font-size: 16px;
   margin-top: 45px;
   margin-left: 10px;
+  border: none;
   text-align: center;
   text-decoration: none;
   border-radius: 6px;
@@ -258,6 +266,7 @@ h2 {
   font-size: 16px;
   margin-left: 10px;
   text-align: center;
+  border: none;
   text-decoration: none;
   border-radius: 6px;
   background: #ffffff;
@@ -269,7 +278,7 @@ h2 {
 
 .block {
   display: flex;
-  margin-top: -3px;
+  margin-top: -5px;
   width: 655px; 
   height: 66px; 
   background: rgba(255, 255, 255, 0.20); 
@@ -358,6 +367,7 @@ h2 {
   display: flex;
   margin-left: 5px;
   gap: 10px;
+  width: 100%;
 }
 
 .search {
@@ -1053,4 +1063,106 @@ width: 60PX;
   height: 217px; 
   margin-top: 20px;
   margin-left: 15px;
+}
+
+/* test */
+.container {
+  text-align: center;
+  padding: 100px 50px;
+  color: #fff;
+}
+
+h1 {
+  margin-bottom: 20px;
+  font-size: 48px;
+}
+
+p {
+  margin-bottom: 30px;
+}
+
+.button-group button {
+  background: none;
+  border: 2px solid #fff;
+  padding: 10px 20px;
+  margin: 0 5px;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.button-group button:hover {
+  background-color: #fff;
+  color: #000;
+}
+
+.search-form {
+  display: flex;
+  justify-content: center;
+  align-items: stretch; 
+  gap: 10px; 
+  width: 100%;
+}
+
+.form-group {
+  position: relative;
+  flex: 1; 
+  display: flex; 
+  align-items: center; 
+}
+
+.form-group i {
+  position: absolute;
+  left: 15px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #1252AE;
+}
+
+.search-form select {
+  width: 100%;
+    padding: 10px 10px 10px 40px; 
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    appearance: none; 
+    background-color: #fff;
+    cursor: pointer;
+    color: #7A818C;
+    height: 100%;
+}
+
+.custom-select  {
+  width: 100%;
+}
+
+
+
+.search-button {
+  padding: 10px 20px;
+  border: none;
+  background-color: #1252AE;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  /* add some transition */
+  transition: all 0.3s ease-in-out;
+
+}
+
+.search-button i {
+  margin-right: 5px;
+}
+
+.search-button:hover {
+  background-color: white;
+  color: #1252AE;
+}
+
+
+.b__s__r > button {
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
 }
