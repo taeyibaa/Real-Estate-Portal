@@ -834,7 +834,8 @@ h11{
   justify-content: right;
   width: 312px; 
   height: 197px; 
-  background-color: #f6f6f6;
+  background: white; 
+  box-shadow: 0px 2px 3px rgba(36, 45, 60, 0.20);
   justify-content: center;
 
 }
@@ -845,14 +846,16 @@ h11{
   height: 40px; 
 }
 .no1{
+  margin-top: 5px;
   text-align: center; 
   color: #2A323C; 
-  font-size: 38px; 
+  font-size: 41px; 
   font-family: Open Sans; 
   font-weight: 700; 
   word-wrap: break-word;
 }
 .premium{
+  margin-top: -30px;
   text-align: center; 
   color: #737D8C; 
   font-size: 18px; 
@@ -934,7 +937,8 @@ h11{
 margin-top: 100PX;
   width: 424px; 
   height: 375px; 
-  background: rgb(249, 249, 254); 
+  background: white; 
+  box-shadow: 0px 2px 3px rgba(36, 45, 60, 0.20);
   
   
 }
@@ -1183,4 +1187,161 @@ p {
 .b__s__r > button {
   cursor: pointer;
   transition: all 0.3s ease-in-out;
+}
+
+
+.client__review__container{
+  max-width: 1300px;
+  margin: auto;
+  margin-top: 200px;
+}
+
+
+
+.firstreview{
+  width: 424px;
+  height: 262px; 
+  background: white; 
+  box-shadow: 0px 2px 3px rgba(36, 45, 60, 0.20);
+}
+
+.reviewsss{
+  margin-top: 100px;
+  justify-content: center;
+  display: flex;
+  gap: 50px;
+}
+.client1{
+  margin-top: -20px;
+  margin-left: 20px;
+  width: 86px; 
+  height: 86px;
+}
+.clientname{
+  margin-left: 20px;
+  font-size: 20px;
+  color: #000;
+  font-weight: 300px;
+}
+.clientmsg{
+  margin-left: 20px;
+  opacity: 0.6;
+}
+.clientpost{
+  margin-top: 6px;
+  margin-left: 24px;
+  opacity: 0.7;
+  width: 153px; 
+  height: 15px;
+}
+.ratingoneee{
+  display: flex;
+  gap: 90px;
+}
+.starz{
+  margin-top: -20px;
+  margin-right:50px ;
+  height: 15px;
+  width: 96px;
+}
+
+.footer__container{
+  max-width: 1300px;
+  margin: auto;
+  margin-top: 100px;
+
+}
+.footer__image{
+  background-image: url(footer=-bg.png) ;
+  height: 400px;
+  width: 1360px;
+  margin-left: -20px;
+}
+
+.nemoenim{
+  margin-top: 20px;
+  color: #737D8C; 
+  font-size: 14px; 
+  font-family: Open Sans; 
+  font-weight: 400; 
+  word-wrap: break-word;
+}
+.footer_info{
+  display: flex;
+  gap: 70px;
+  margin-left: 80px;
+}
+.followus{
+  color: #2A323C; 
+  font-size: 18px; 
+  font-family: Open Sans; 
+  font-weight: 600; 
+  word-wrap: break-word;
+}
+.social_media_icons{
+  margin-top: 17px;
+  display: flex;
+  row-gap: 25px;
+}
+
+.aboutusd{
+  color: #2A323C; 
+  font-size: 20px; 
+  font-family: Open Sans; 
+  font-weight: 600; 
+  word-wrap: break-word;
+}
+.opt{
+  color: #737D8C; 
+  font-size: 15px; 
+  font-family: Open Sans; 
+  font-weight: 400; 
+  line-height: 18px; 
+  word-wrap: break-word;
+}
+.aboutusdetailslast{
+  display: grid;
+}
+
+
+.mcol{
+  display: flex;
+  gap: 20px;
+}
+.contactus_icons{
+  margin-top: 20px;
+  display: grid;
+  
+}
+.emaild{
+  color: #2A323C; 
+  font-size: 16px; 
+  font-family: Open Sans; 
+  font-weight: 400; 
+  line-height: 18px; 
+  word-wrap: break-word;
+}
+.email_id{
+  color: #737D8C; 
+  font-size: 14px; 
+  font-family: Open Sans; 
+  font-weight: 400; 
+  line-height: 18px; 
+  word-wrap: break-word;
+}
+.contactusinfo{
+  margin-top: 20px;
+  
+}
+.userprivacy{
+  margin-top: 30px;
+  color: #2A323C; 
+  font-size: 1px; 
+  font-family: Open Sans; 
+  font-weight: 400; 
+  opacity: 0.7;
+  line-height: 18px; 
+  word-wrap: break-word;
+  align-items: center;
+  margin-left: 590px;
 }

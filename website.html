@@ -77,21 +77,46 @@
             </div>
 
             <div class="block">
-              <div class="options">
-                <button class="location-button">
-                  <div><img src="map-marker-radius-outline.svg"></div><div>Locate me</div> 
-                  <div><img src="chevron-down.svg"></div>
-              </button> <button class="property-button">
-                <div><img class="propertyhome" src="home.svg"></div><div>Property</div> 
-                <div><img src="chevron-down.svg"></div>
-            </button>  <button class="price-button">
-              <div><img src="map-marker-radius-outline.svg"></div><div>Price</div> 
-              <div><img src="chevron-down.svg"></div>
-          </button>  <button class="search-button">
-            <div><img src="magnify.svg"></div><div>Search</div> 
-            
-        </button> 
+              <form class="search-form">
+                <div class="form-group">
+                  <i class="fas fa-map-marker-alt"></i>
+                  <select name="location">
+                    <option value="">Location</option>
+                    <option value="">Location</option>
+                    <option value="new-york">New York</option>
+                    <option value="los-angeles">Los Angeles</option>
+                    <option value="chicago">Chicago</option>
+                    <option value="houston">Houston</option>
+                  </select>
+                </div>
 
+                <div class="form-group">
+                  <i class="fas fa-home"></i>
+                  <select name="property">
+                    <option value="">Property</option>
+                    <option value="apartment">Apartment</option>
+                    <option value="house">House</option>
+                    <option value="condo">Condo</option>
+                    <option value="land">Land</option>
+                </select>
+
+                </div>
+
+                <div class="form-group">
+                  <i class="fas fa-dollar-sign"></i>
+                  <select name="price">
+                    <option value="">Price</option>
+                    <option value="0-100000">$0 - $100,000</option>
+                    <option value="100000-200000">$100,000 - $200,000</option>
+                    <option value="200000-300000">$200,000 - $300,000</option>
+                    <option value="300000-plus">$300,000+</option>
+                </select>
+
+
+                <button class="search-button">
+                  <i class="fas fa-search"></i>
+                    Search
+                  </button>
   
               </div>
             </div>
@@ -555,7 +580,7 @@
         <div class="oneboxx">
           <img class="crown" src="crown.svg" />
           <p class="no1">10.5k</p>
-          <img src="border.svg" />
+          
           <p class="premium">Premium Property</p>
         </div>
 
@@ -563,7 +588,7 @@
         <div class="oneboxx">
           <img class="crown" src="emoticon-happy.svg" />
           <p class="no1">8600+</p>
-          <img src="border.svg" />
+          
           <p class="premium">Happy Customer</p>
         </div>
 
@@ -571,7 +596,6 @@
         <div class="oneboxx">
           <img class="crown" src="trophy.svg" />
           <p class="no1">1200</p>
-          <img src="border.svg" />
           <p class="premium">Awward Winning</p>
         </div>
 
@@ -579,12 +603,106 @@
         <div class="oneboxx">
           <img class="crown" src="home.svg" />
           <p class="no1">750</p>
-          <img class="borderlineee" src="border.svg" />
           <p class="premium">Years Experience</p>
         </div>
       </div>
     </section>
     <!--..-->
+
+
+
+     <!--clients review section-->
+
+    <section class="client__review__container">
+
+      <!--heading for this section-->
+      <div><span class="featured">What Our</span><span class="propertiesx">Client Says?</span></div>
+        
+
+      <!--Reviews-->
+      <div class="reviewsss">
+
+      <!--first Review-->
+      <div class="firstreview">
+        <img class="client1" src="img.png" />
+        <p class="clientmsg">Nam libero tempore,
+         cum soluta nobis est <br>eligendi optio cumque nihil impedit quo minus
+         <br> id quod maxime placeat.</p>
+          <h class="clientname">Christopher J. Larson</h>
+          <div class="ratingoneee">
+         <p class="clientpost">Service Manager</p>
+         <img class="starz" src="Star.svg">
+        </div>
+      </div>
+
+      <!--2nd reviw>-->
+      <div class="firstreview">
+        <div class="firstreview">
+          <img class="client1" src="3client (2).svg" />
+          <p class="clientmsg">Nam libero tempore,
+           cum soluta nobis est <br>eligendi optio cumque nihil impedit quo minus
+           <br> id quod maxime placeat.</p>
+            <h class="clientname">Derrick P. Boudreaux</h>
+            <div class="ratingoneee">
+           <p class="clientpost">Web Developer</p>
+           <img class="starz" src="Star.svg">
+          </div>
+        </div>
+
+
+      </div>
+
+      <!--3rd Review-->
+      <div class="firstreview">
+        <div class="firstreview">
+          <img class="client1" src="client3.svg" />
+          <p class="clientmsg">Nam libero tempore,
+           cum soluta nobis est <br>eligendi optio cumque nihil impedit quo minus
+           <br> id quod maxime placeat.</p>
+            <h class="clientname">Stanley S. Nesbitt</h>
+            <div class="ratingoneee">
+           <p class="clientpost">Company Founderr</p>
+           <img class="starz" src="Star.svg">
+          </div>
+        </div>
+
+
+
+
+      </div>
+
+
+
+
+
+     <!--end-->
+    </div>
+
+
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
       <!--Featured properties section-->
       <section class="eight__container">
@@ -674,5 +792,105 @@
         <img src="cta-img 1.svg" />
       </div>
     </section>
+
+
+
+
+    <!--Footer Section-->
+    <Section class="footer__container">
+      <div class="footer__image">
+        <img src="map.svg">
+           <div class="footer_info">
+        <!--one col for logo-->
+        <div class="logonfollowus">
+           <img src="Homeey-logo.png">
+           <p class="nemoenim">Nemo enim ipsam voluptatem quia voluptas sit <br/>aspernatur a odit aut fugit sed consequuntur <br/>magni 
+            dolores eos qui ratione.</p>   
+            <h class="followus">Follow Us</h>
+             <div class="social_media_icons">
+              <img src="facebook.svg">
+              <img src="instagram.svg">
+              <img src="facebook (1).svg">
+              <img src="whatsapp.svg">
+             </div>
+          </div>
+    
+
+          <!--about us col-->
+          <div class="aboutusdetailslast">
+            <h class="aboutusd">About Us</h>
+            <br>
+            <h class="opt">.. How It Works?</h>
+            <h class="opt">Customers</h>
+            <h class="opt">Our Story</h>
+            <h class="opt">Career</h>
+            <h class="opt">Contact Us</h>
+            <h class="opt">FAQs</h>
+          </div>
+
+
+          <!--Support n summary col-->
+          <div class="aboutusdetailslast">
+            <h class="aboutusd">Support & Summary</h>
+            <br>
+            <h class="opt">Question</h>
+            <h class="opt">Helping Center</h>
+            <h class="opt">Privacy & Policy</h>
+            <h class="opt">Buy or Rent</h>
+            <h class="opt">Properties</h>
+            <h class="opt">Blogs</h>
+          </div>
+
+
+
+
+          <!--Contact us Col-->
+          <div class="aboutusdetailslast">
+            <h class="aboutusd">Contact Us</h>
+            <br>
+    
+             
+
+            <div class="mcol">
+              <!--icons-->
+          
+            <div class="contactus_icons">
+              <img src="icon.svg">
+              <img src="icon (1).svg">
+              <img src="icon (2).svg">
+
+            </div>
+
+
+              <!--their details-->
+            <div class="contactusinfo">
+
+
+              <h class="emaild">E-mail</h>
+              <p class="email_id">youremailid@gmail.com</p>
+              <h class="emaild">Contact</h>
+              <p class="email_id">(+01) 123 456 7890</p>
+              <h class="emaild">Location</h>
+              <p class="email_id">3012 Pine Garden Lane
+                Atlanta, <br/>Boulevard, GA 30328</p>
+            </div>
+
+
+          </div>
+
+
+
+
+</div>
+
+
+       
+
+<!--end-->
+
+</div>
+
+<div class="userprivacy">Terms Condition & Policy</div>
+    </Section>
   </body>
 </html>
