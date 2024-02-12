@@ -529,14 +529,14 @@
           <div class="points">
             <!--1 line-->
             <div class="rp">
-              <img src="arrow-right-thinnn.svg" />
+              <div class="arrowleft"><img src="arrow-right-thinnn.svg" /></div>
               <p class="det">
                 A building with only one room and typically a steep pointy roof.
               </p>
             </div>
             <!--2 line-->
             <div class="rp">
-              <img src="arrow-right-thinnn.svg" />
+              <div class="arrowleft"><img src="arrow-right-thinnn.svg" /></div>
               <p class="det">
                 A vehicle on wheels that has a permanent residence attached to
                 it.
@@ -544,28 +544,28 @@
             </div>
             <!--3 line-->
             <div class="rp">
-              <img src="arrow-right-thinnn.svg" />
+              <div class="arrowleft"><img src="arrow-right-thinnn.svg" /></div>
               <p class="det">
                 Performing financial analysis and valuation of properties.
               </p>
             </div>
             <!--4 line-->
             <div class="rp">
-              <img src="arrow-right-thinnn.svg" />
+              <div class="arrowleft"><img src="arrow-right-thinnn.svg" /></div>
               <p class="det">
                 Someone who examines buildings and works with appraisers.
               </p>
             </div>
             <!--5 line-->
             <div class="rp">
-              <img src="arrow-right-thinnn.svg" />
+              <div class="arrowleft"><img src="arrow-right-thinnn.svg" /></div>
               <p class="det">
                 A dwelling typically made of raw materials such as bamboo, mud,
                 and clay.
               </p>
             </div>
 
-            <div class="viewmoreee"></div>
+            <a href="#" class="buttonvm">View More</a>
           </div>
         </div>
 
@@ -784,8 +784,12 @@
           </div>
 
           <div class="emailbox">
-            <p class="eemail">Enter your email...</p>
-            <div class="subb"><a href="#" class="Subscribe">Subscribe</a></div>
+            <form id="emailForm" action="#" method="post">
+              <div class="form-groupt">
+                  <input type="email" id="email" name="email"   placeholder="Enter Your Email..." required>
+              </div>
+              <input type="submit" value="Submit">
+          </form>
           </div>
         </div>
 
@@ -799,7 +803,7 @@
     <!--Footer Section-->
     <Section class="footer__container">
       <div class="footer__image">
-        <img src="map.svg">
+        
            <div class="footer_info">
         <!--one col for logo-->
         <div class="logonfollowus">

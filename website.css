@@ -4,7 +4,7 @@
 }
 body {
   font-family: "Open Sans";
-  background-color: rgb(255, 255, 255);
+  background-color: white;
   color: #4b5a6f;
 }
 
@@ -807,10 +807,11 @@ h11{
 
 .rp{
   display: flex;
-  gap: 12px;
+  gap: 20px;
 }
 .points{
-  margin-top: 26px;
+
+margin-top: 10px;
   display: grid;
   gap: 15px;
 }
@@ -1252,10 +1253,10 @@ p {
 
 }
 .footer__image{
-  background-image: url(footer=-bg.png) ;
+  background-image: url("map.svg") ;
   height: 400px;
   width: 1360px;
-  margin-left: -20px;
+  padding-top: 40px;
 }
 
 .nemoenim{
@@ -1344,4 +1345,55 @@ p {
   word-wrap: break-word;
   align-items: center;
   margin-left: 590px;
+}
+
+.buttonvm {
+  width: 120px;
+  background-color: #1252ae;
+  color: white;
+  display: inline-block;
+  margin-top: 12.5px;
+  padding: 10px 20px;
+  font-size: 16px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 5px;
+  cursor: pointer;
+  align-items: right;
+}
+.buttonvm:hover{
+  background-color: #3498db;
+  color: #fff;
+}
+.arrowleft{
+
+  width: 13.95px; 
+  height: 10px;
+}
+
+.form-groupt {
+  margin-left: 10px;
+  margin-top: 0px;
+  margin-bottom: 20px;
+}
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+input[type="email"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+input[type="submit"] {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 5px 30px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+input[type="submit"]:hover {
+  background-color: #0056b3;
 }
